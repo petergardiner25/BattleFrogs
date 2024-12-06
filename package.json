@@ -1,0 +1,26 @@
+{
+  "name": "battlefrogs",
+  "version": "1.0.0",
+  "description": "Battle Frog Game built with TypeScript and GO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "concurrently \"npx tsc --watch\" \"go run main.go\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petergardiner25/BattleFrogs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petergardiner25/BattleFrogs/issues"
+  },
+  "homepage": "https://github.com/petergardiner25/BattleFrogs#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "typescript": "^5.7.2"
+  }
+}
