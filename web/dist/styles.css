@@ -1,0 +1,25 @@
+/* * {
+  margin: 0px;
+  box-sizing: border-box;
+} */
+
+canvas {
+  background-color: #eee;
+}
+button {
+  display: block;
+}
+
+/* #canvas-wrapper {
+  position: relative;
+  height: 75%;
+  width: 75%;
+  overflow: hidden;
+  align-self: center;
+} */
+
+/* canvas {
+  width: 480px;
+  height: 320px;
+  border: 1px solid blue;
+} */
